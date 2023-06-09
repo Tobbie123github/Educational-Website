@@ -1,0 +1,489 @@
+/*----------HEADER-----_-----*/
+
+header.about-header{
+  width:100%;
+  background-color: var(--color-primary-lightness);
+  height:9rem;
+  display: grid;
+  place-items:center;
+}
+
+
+
+
+
+
+/*----------EXPREIENCE-----_-----*/
+
+section#experience{
+  width:100%;
+  margin-top: 3rem;
+}
+section#experience .experience-container{
+width:var(--container-width-lg);
+margin:0 auto;
+display:flex;
+flex-directiin:row;
+align-items: center;
+gap:2rem;
+}
+section#experience .experience-container .experience-img img{
+  width:28rem;
+
+}
+
+section#experience .experience-container .experience-content{
+  display:flex;
+  flex-direction:column;
+  align-items: flex-start;
+  justify-content: center;
+gap:1.5rem;
+
+}
+section#experience .experience-container .experience-content h3{
+font-size: 1.5rem;
+}
+section#experience .experience-container .experience-content .card-row{
+  display:flex;
+  flex-direction:row;
+  gap:1rem;
+  align-items: center;
+  justify-content: center;
+}
+section#experience .experience-container .experience-content .card-row .card-col{
+  display:flex;
+  flex-direction:column;
+gap:0.4rem;
+  align-items: center;
+padding:1rem;
+border:1px solid var(--color-primary-lightness);
+border-radius: 0.3rem;
+}
+
+section#experience .experience-container .experience-content .card-row .card-col:hover{
+border:0;
+background-color: var(--color-white);
+box-shadow: -2rem 4rem 4rem rgba(0,0,0,0.3);
+
+
+}
+section#experience .experience-container .experience-content .card-row .card-col img{
+width:3rem;
+}
+
+
+
+
+/*----------TEACHER--_----------_-----*/
+
+section.top-courses{
+  margin-top: 3rem;
+  width:100%;
+  
+}
+
+span.swiper-pagination-bullet {
+  display: grid;
+} 
+section.top-courses .first-courses1{
+width:var(--container-width-lg);
+height:auto;
+margin-top:2rem;
+  
+}
+
+section.top-courses .first-courses1 .courses-container1{
+width:100%;
+
+}
+
+.courses-container1 .courses-images7{
+ background-image: url('./images/teacher1.jpeg');
+  width:25rem;
+  height:30rem;
+  display: grid;
+ place-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  transition: var(--transition);
+}
+
+
+.courses-container1 .courses-images8{
+ background-image: url('./images/teacher2.jpeg');
+  width:25rem;
+  height:30rem;
+  display: grid;
+ place-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  transition: var(--transition);
+}
+
+
+.courses-container1 .courses-images9{
+ background-image: url('./images/teacher3.jpeg');
+  width:25rem;
+  height:30rem;
+  display: grid;
+ place-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  transition: var(--transition);
+}
+
+.courses-container1 .courses-images10{
+ background-image: url('./images/teacher5.jpeg');
+  width:25rem;
+  height:30rem;
+  display: grid;
+ place-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  transition: var(--transition);
+}
+
+
+.courses-container1 .courses-images11{
+ background-image: url('./images/teacher4.jpeg');
+  width:25rem;
+  height:30rem;
+  display: grid;
+ place-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  transition: var(--transition);
+}
+
+
+.courses-container1  .courses-images12{
+ background-image: url('./images/teacher6.jpeg');
+  width:25rem;
+  height:30rem;
+  display: grid;
+ place-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  transition: var(--transition);
+} 
+
+
+
+
+.courses-container1 .courses-images7 .content{
+position: absolute ;
+background-color: var(--color-primary-lightness);
+width:100%;
+height:20%;
+display:flex;
+flex-direction:row;
+transform: translateY(20rem);
+justify-content: center;
+gap:1.5rem;
+align-items: center;
+transition:var(--transition);
+color:var(--color-white);
+
+}
+
+.courses-container1 .courses-images8 .content{
+position: absolute ;
+background-color: var(--color-primary-lightness);
+width:100%;
+height:20%;
+display:flex;
+flex-direction:row;
+transform: translateY(20rem);
+justify-content: center;
+gap:1.5rem;
+align-items: center;
+transition:var(--transition);
+color:var(--color-white);
+}
+
+ .courses-container1 .courses-images9 .content{
+position: absolute ;
+background-color: var(--color-primary-lightness);
+width:100%;
+height:20%;
+display:flex;
+flex-direction:row;
+transform: translateY(20rem);
+justify-content: center;
+gap:1.5rem;
+align-items: center;
+transition:var(--transition);
+color:var(--color-white);
+}
+
+.courses-container1 .courses-images10 .content{
+position: absolute ;
+background-color: var(--color-primary-lightness);
+width:100%;
+height:20%;
+display:flex;
+flex-direction:row ;
+transform: translateY(20rem);
+justify-content: center;
+gap:1.5rem;
+align-items: center;
+transition:var(--transition);
+color:var(--color-white);
+}
+
+.courses-container1 .courses-images11 .content{
+position: absolute ;
+background-color: var(--color-primary-lightness);
+width:100%;
+height:20%;
+display:flex;
+flex-direction: row;
+transform: translateY(20rem);
+justify-content: center;
+gap:1.5rem;
+align-items: center;
+transition:var(--transition);
+color:var(--color-white);
+}
+
+ .courses-container1 .courses-images12 .content{
+position: absolute ;
+background-color: var(--color-primary-lightness);
+width:100%;
+height:20%;
+display:flex;
+flex-direction: row;
+transform: translateY(20rem);
+justify-content: center;
+gap:1.5rem;
+align-items: center;
+transition:var(--transition);
+color:var(--color-white);
+}
+
+ .courses-container1 .courses-images7 .content span a{
+  color: var(--color-white);
+  padding: 0.6rem;
+  font-size: 2rem;
+
+}
+
+
+.courses-container1 .courses-images8 .content span a {
+    color: var(--color-white);
+  padding: 0.6rem;
+  font-size: 2rem;
+
+}
+
+.courses-container1 .courses-images9 .content span a {
+    color: var(--color-white);
+  padding: 0.6rem;
+  font-size: 2rem;
+
+  
+}
+
+
+ .courses-container1 .courses-images10 .content span a {
+    color: var(--color-white);
+  padding: 0.6rem;
+  font-size: 2rem;
+
+}
+
+ .courses-container1 .courses-images11 .content span a {
+  color: var(--color-white);
+  padding: 0.6rem;
+  font-size: 2rem;
+}
+
+
+.courses-container1 .courses-images12 .content span a {
+    color: var(--color-white);
+  padding: 0.6rem;
+  font-size: 2rem;
+
+}
+
+
+
+.courses-container1 .courses-images7:hover {
+  filter: grayscale(60%);
+
+} 
+
+.courses-container1 .courses-images7:hover .content{
+transform: translateY(10rem);
+
+}
+
+ .courses-container1 .courses-images8:hover {
+  filter: grayscale(60%);
+
+} 
+
+ .courses-container1 .courses-images8:hover .content{
+transform: translateY(10rem);
+
+}
+
+
+ .courses-container1 .courses-images9:hover {
+  filter: grayscale(60%);
+
+} 
+ .courses-container1 .courses-images9:hover .content{
+transform: translateY(10rem);
+
+}
+
+ .courses-container1 .courses-images10:hover {
+  filter: grayscale(60%);
+
+} 
+ .courses-container1 .courses-images10:hover .content{
+transform: translateY(10rem);
+
+}
+
+ .courses-container1 .courses-images11:hover {
+  filter: grayscale(60%);
+
+} 
+
+.courses-container1 .courses-images11:hover .content{
+transform: translateY(10rem);
+
+}
+
+
+.courses-container1 .courses-images12:hover {
+  filter: grayscale(60%);
+
+} 
+
+ .courses-container1 .courses-images12:hover .content{
+transform: translateY(10rem);
+
+}
+
+
+
+
+/*----------STUDENT----------------*/
+
+section.students{
+   margin-top: 3rem;
+  width:100%;
+}
+section.students h3{
+text-align: center;
+margin-bottom: 1.5rem;
+}
+section.students .student{
+  width:var(--container-width-lg);
+  margin:0 auto;
+}
+section.students .student .student-container{
+width:100%;
+}
+.student-container .student-review{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:1rem;
+}
+.student-container .student-review article{
+ border:1px solid var(--color-primary-lightness);
+ width:15rem;
+ position:relative;
+ padding:1rem;
+ text-align:center;
+}
+
+.student-container .student-review article::before{
+content:'';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-right: 1px solid var(--color-primary-lightness);
+  border-top: 1px solid var(--color-primary-lightness);
+  transform: rotate(135deg);
+  position: absolute;
+  bottom:-0.55rem;
+  left:7rem;
+  right:8.5rem;
+}
+.student-container .student-review .image img{
+  margin-top: 1rem;
+ width:3rem;
+ height:3rem;
+ overflow: hidden;
+ border-radius: 50%;
+  
+}
+.student-container .student-review icons{
+display: flex;
+flex-direction: row;
+gap:0.4rem
+}
+
+.student-container .student-review .icons span i{
+font-size:1rem;
+color:var(--color-primary);
+}
+
+
+
+
+
+/* -----------------MEDIA QUERY(TABLET)  ---------------- */
+
+@media screen and (max-width:1024px){
+  section#experience .experience-container{
+width:var(--container-width-md);
+flex-direction: column;
+}
+ 
+ section#experience .experience-container .experience-img img{
+width:100%;
+}
+
+section#experience .experience-container .experience-content{
+align-items: center;
+  text-align: center
+}
+  
+ 
+}
+
+
+
+/* -----------------MEDIA QUERY(MOBILE)  ---------------- */
+
+@media screen and (max-width:600px){
+
+section#experience .experience-container .experience-content .card-row{
+    flex-direction:column;
+    width:50%;
+}
+
+section#experience .experience-container .experience-content .card-row .card-col{
+width:100%;
+
+}
+
+}

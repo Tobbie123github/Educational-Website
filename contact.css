@@ -1,0 +1,220 @@
+/*----------HEADER-----_-----*/
+
+header.contact-header {
+  width: 100%;
+  background-color: var(--color-primary-lightness);
+  height: 9rem;
+  display: grid;
+  color:var(--color-black);
+  place-items: center;
+}
+
+
+/*----------ACCORDION---------------*/
+
+section.accordion{
+  width: 100%;
+  margin-top: 3rem;
+}
+
+section.accordion .accordion-container{
+width:var(--container-width-lg);
+display:grid;
+grid-template-columns: 1fr 1fr;
+margin:0 auto;
+gap:1rem;
+}
+
+section.accordion .accordion-container .content-container{
+width:100%;
+}
+.accordion-container .content h5{
+ padding:1rem;
+ font-size:1rem;
+ 
+}
+
+section.accordion .accordion-container .content-container .top-section{
+width:100%;
+background-color: var(--color-primary);
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+padding:0.3rem 0.7rem;
+align-items:center;
+color:var(--color-white);
+}
+
+section.accordion .accordion-container .content-container .top-section::after{
+content:'\2191';
+font-size:2rem;
+color:var(--color-white);
+transition:var(--transition);
+}
+
+section.accordion .accordion-container .content-container .top-section.rotate::after{
+transform: rotate(180deg)
+}
+section.accordion .accordion-container .content-container .top-section h5{
+padding:1rem;
+}
+.accordion-container .content {
+max-height: 0;
+transition: var(--transition);
+overflow: hidden;
+background-color: var(--color-primary);
+color:var(--color-white);
+}
+.accordion-container .content-container .content p{
+padding:1rem;
+font-size: 1.2rem;
+
+}
+
+
+
+/*----------CONTACT--------------*/
+
+section.contact{
+  width:100%;
+  margin-top:3rem;
+  display: grid;
+  place-items: center;
+}
+
+section.contact .contact-container{
+width:var(--container-width-lg);
+display: grid;
+grid-template-columns:20rem auto;
+margin:0 auto;
+gap:5rem;
+}
+
+.contact-container .h3{
+  text-align: center;
+}
+
+.contact-container .card-container{
+display: grid;
+grid-template-columns: 1fr;
+justify-content: center;
+gap:1rem;
+margin-top: 2rem;
+align-items: center;
+}
+.contact-container .card-container .card{
+background-color: var(--color-primary);
+width:70%;
+margin: 0 auto;
+}
+.contact-container .card-container .card .each-cards{
+width:100%;
+display: flex;
+flex-direction:column;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin:0 auto;
+padding:1rem;;
+gap:1rem;
+color:var(--color-white);
+}
+.contact-container .card-container .card .each-cards h5{
+  font-size: 1rem;
+}
+
+.contact-container .card-container .card .each-cards span i{
+font-size: 2rem;
+}
+
+
+.contact-container .form{
+  display:flex;
+  flex-direction: column;
+  gap:1rem;
+  justify-content: center;
+}
+
+.contact-container .form form{
+display:flex;
+  flex-direction: column;
+  gap:1rem;
+
+}
+
+.contact-container .form form input , .contact-container .form form textarea{
+padding:1.4rem;
+background-color: var(--color-primary);
+ color:var(--color-white);
+
+}
+.contact-container .form form input::placeholder , .contact-container .form form textarea::placeholder{
+color:var(--color-white);
+}
+
+.contact-container .form form input::focus , .contact-container .form form textarea::focus{
+background-color: var(--color-white);
+color:var(--color-white);
+}
+
+.contact-container .form form textarea{
+  height:10rem;
+}
+
+.contact-container .form form button{
+width:8rem;
+cursor: pointer;
+border:1px solid var(--color-primary-lightness);
+color:var(--color-primary);
+padding:1rem;
+font-weight: 700;
+}
+
+
+
+/*---------MEDIA QUERY{TABLET}--------------*/
+
+@media screen and (max-width:1024px){
+section.accordion .accordion-container{
+width:var(--container-width-md);
+
+}
+  
+.accordion-container .content-container .content p{
+padding:1rem;
+font-size: 1rem;
+
+}
+
+  section.contact .contact-container{
+width:var(--container-width-md);
+grid-template-columns: 1fr;
+
+}
+
+}
+
+
+/*---------MEDIA QUERY{MOBILE}--------------*/
+
+@media screen and (max-width:600px){
+  
+section.accordion .accordion-container{
+width:var(--container-width-md);
+grid-template-columns: 1fr;
+
+}
+  
+.accordion-container .content-container .content p{
+padding:1rem;
+font-size: 0.8rem;
+
+}
+
+  
+  section.contact .contact-container{
+width:var(--container-width-md);
+grid-template-columns: 1fr;
+
+}
+}
