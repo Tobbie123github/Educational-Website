@@ -16,7 +16,8 @@
   --color-dark:hsl(270, 5% ,44%);
   
   /*  GENERAL CONTAINER VARIABLES */
-  --container-width-lg:80%;
+  --container-width-lg:70%;
+  --container-width-xlg:70%;
   --container-width-md:90%;
   
   
